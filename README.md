@@ -28,7 +28,7 @@ Partie 1 - Serveur HTTP natif Node.js
       L'erreur affichée est "Error : ENOENT: no such file or directory".
 
     Question 1.5 donner le code de requestListener() modifié avec gestion d'erreur en async/await 
-
+      <code>
       async function requestListener(_request, response) {
         try {
           const contents = await fs
@@ -44,7 +44,7 @@ Partie 1 - Serveur HTTP natif Node.js
           return response.end(error);
         }
       }
-
+    </code>
   Mode développement
 
     Question 1.6 indiquer ce que cette commande a modifié dans votre projet
