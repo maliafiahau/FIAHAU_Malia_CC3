@@ -23,7 +23,7 @@
 
       Aucune réponse n'est reçue par le client.
 
-    Question 1.4 quelle est l'erreur affichée dans la console ? Retrouver sur `<a href= "https://nodejs.org/api">https://nodejs.org/api</a>` le code d'erreur affiché.
+    Question 1.4 quelle est l'erreur affichée dans la console ? Retrouver sur https://nodejs.org/api le code d'erreur affiché.
 
       L'erreur affichée est "Error : ENOENT: no such file or directory".
 
@@ -112,7 +112,7 @@
 
   #### Gestion d'erreurs
 
-    Question 2.7 vérifier que l'affichage change bien entre le mode production et le mode development.
+    Question 2.7 vérifier que l'affichage change bien entre le mode _production_ et le mode development.
 
       En mode production, la page affiche "Error 404 NOT FOUND".
       En mode development, on rajoute "NOTFOUNDERROR: NOT FOUND at...".
