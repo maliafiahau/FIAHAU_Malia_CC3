@@ -112,7 +112,7 @@
 
   #### Gestion d'erreurs
 
-    `Question 2.7 vérifier que l'affichage change bien entre le mode _production_ et le mode development.`
+    `Question 2.7 vérifier que l'affichage change bien entre le mode `_production_` et le mode development.`
 
       En mode production, la page affiche "Error 404 NOT FOUND".
       En mode development, on rajoute "NOTFOUNDERROR: NOT FOUND at...".
