@@ -29,7 +29,7 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.5 donner le code de requestListener() modifié avec gestion d'erreur en async/await 
     
-      ```async function requestListener(_request, response) {
+      async function requestListener(_request, response) {
         try {
           const contents = await fs
             .readFile("index.html", "utf8")
@@ -43,7 +43,7 @@ Partie 1 - Serveur HTTP natif Node.js
           response.writeHead(500);
           return response.end(error);
         }
-      }```
+      }
     
   Mode développement
 
@@ -62,7 +62,7 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.8 donner les codes HTTP reçus par votre navigateur pour chacune des pages précédentes
 
-      - http://localhost:8000/index.html : 200 OK
+      - [Lien](http://localhost:8000/index.html) : 200 OK
       - http://localhost:8000/random.html : 200 OK
       - http://localhost:8000/ : 404 NOT FOUND
       - http://localhost:8000/dont-exist : 404 NOT FOUND
