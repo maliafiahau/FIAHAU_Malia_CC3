@@ -1,9 +1,9 @@
 # FIAHAU_Malia_CC3
-TP5 - Développement Web
+## TP5 - Développement Web
 
-Partie 1 - Serveur HTTP natif Node.js
+### Partie 1 - Serveur HTTP natif Node.js
 
-  Installation
+  #### Installation
 
     Question 1.1 donner la liste des en-têtes de la réponse HTTP du serveur
 
@@ -12,7 +12,7 @@ Partie 1 - Serveur HTTP natif Node.js
       - Keep-alive
       - Transfer-encoding
 
-  Servir différents types de contenus
+  #### Servir différents types de contenus
 
     Question 1.2 donner la liste des en-têtes qui ont changé depuis la version précédente
 
@@ -45,7 +45,7 @@ Partie 1 - Serveur HTTP natif Node.js
         }
       } </code>`
     
-  Mode développement
+  #### Mode développement
 
     Question 1.6 indiquer ce que cette commande a modifié dans votre projet
 
@@ -58,7 +58,7 @@ Partie 1 - Serveur HTTP natif Node.js
       apportées dans le code.
       Le script http-prod est exécuté sans nodemon, donc il n'y aura pas de relance automatique du serveur.
 
-  Gestion manuelle des routes
+  #### Gestion manuelle des routes
 
     Question 1.8 donner les codes HTTP reçus par votre navigateur pour chacune des pages précédentes
 
@@ -67,9 +67,9 @@ Partie 1 - Serveur HTTP natif Node.js
       - http://localhost:8000/ : 404 NOT FOUND
       - http://localhost:8000/dont-exist : 404 NOT FOUND
 
-Partie 2 - framework Express
+### Partie 2 - framework Express
 
-  Création du serveur
+  #### Création du serveur
 
     Question 2.1 donner les URL des documentations de chacun des modules intallés par la commande précédente.
 
@@ -96,7 +96,7 @@ Partie 2 - framework Express
       La variable server est créée lors de l'appel app.listen(port, host). L'évènement listening sera déclenché lorsque le serveur à réussi à se lier au port
       et à l'adresse host spécifiés.
 
-  Ajout de middlewares
+  #### Ajout de middlewares
 
     Question 2.5 indiquer quelle est l'option (activée par défaut) qui redirige "/" vers "/index.html"?
 
@@ -110,7 +110,7 @@ Partie 2 - framework Express
       En rafraichissant la page d'accueil le code HTTP sur le fichier style.css est 304 (NOT MODIFIED). Ensuite en forçant le rafraichissement, le code HTTP est 200 (OK).
       Cela reflète le comportement du cache d'un navigateur. Le code 304 signifie que les ressources ont été téléchargées depuis le cache, mais en forçant le rafraichissement, le navigateur ignore le cache.
 
-  Gestion d'erreurs
+  #### Gestion d'erreurs
 
     Question 2.7 vérifier que l'affichage change bien entre le mode production et le mode development.
 
