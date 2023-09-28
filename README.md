@@ -29,7 +29,7 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.5 donner le code de requestListener() modifié avec gestion d'erreur en async/await 
     
-      `async function requestListener(_request, response) {
+      ``async function requestListener(_request, response) {
         try {
           const contents = await fs
             .readFile("index.html", "utf8")
@@ -43,7 +43,7 @@ Partie 1 - Serveur HTTP natif Node.js
           response.writeHead(500);
           return response.end(error);
         }
-      }`
+      }``
     
   Mode développement
 
