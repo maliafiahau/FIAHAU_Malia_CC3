@@ -29,7 +29,7 @@
 
     Question 1.5 donner le code de requestListener() modifié avec gestion d'erreur en async/await 
     
-      `<code> async function requestListener(_request, response) {
+      async function requestListener(_request, response) {
         try {
           const contents = await fs
             .readFile("index.html", "utf8")
@@ -43,7 +43,7 @@
           response.writeHead(500);
           return response.end(error);
         }
-      } </code>`
+      }
     
   #### Mode développement
 
@@ -101,8 +101,8 @@
     Question 2.5 indiquer quelle est l'option (activée par défaut) qui redirige "/" vers "/index.html"?
 
       L'option activée par défaut qui redirige "/" vers "/index.html" est 'fallthrough' qui prend comme valeur par défaut true. 
-      `> Il est généralement true souhaité que plusieurs répertoires physiques puissent être mappés à la même adresse Web ou que des itinéraires remplissent des
-      fichiers inexistants.`
+      Il est généralement true souhaité que plusieurs répertoires physiques puissent être mappés à la même adresse Web ou que des itinéraires remplissent des
+      fichiers inexistants.
 
     Question 2.6 visiter la page d'accueil puis rafraichir (Ctrl+R) et ensuite forcer le rafraichissement (Ctrl+Shift+R). Quels sont les codes HTTP sur le
     fichier style.css? Justifier.
@@ -112,7 +112,7 @@
 
   #### Gestion d'erreurs
 
-    `Question 2.7 vérifier que l'affichage change bien entre le mode `_production_` et le mode development.`
+    Question 2.7 vérifier que l'affichage change bien entre le mode `_`production`_` et le mode development.
 
       En mode production, la page affiche "Error 404 NOT FOUND".
       En mode development, on rajoute "NOTFOUNDERROR: NOT FOUND at...".
