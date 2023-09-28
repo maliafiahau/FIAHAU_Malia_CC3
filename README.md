@@ -62,7 +62,7 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.8 donner les codes HTTP reçus par votre navigateur pour chacune des pages précédentes
 
-      - [Lien](http://localhost:8000/index.html) : 200 OK
+      - http://localhost:8000/index.html : 200 OK
       - http://localhost:8000/random.html : 200 OK
       - http://localhost:8000/ : 404 NOT FOUND
       - http://localhost:8000/dont-exist : 404 NOT FOUND
@@ -73,7 +73,7 @@ Partie 2 - framework Express
 
     Question 2.1 donner les URL des documentations de chacun des modules intallés par la commande précédente.
 
-      "express": "^4.18.2" https://expressjs.com
+      "express": "^4.18.2" [express](https://expressjs.com)
       "http-errors": "^2.0.0" https://www.npmjs.com/package/http-errors
       "loglevel": "^1.8.1" https://www.npmjs.com/package/loglevel
       "morgan": "^1.10.0" https://www.npmjs.com/package/morgan
