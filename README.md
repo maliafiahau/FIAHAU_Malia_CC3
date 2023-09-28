@@ -29,7 +29,7 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.5 donner le code de requestListener() modifié avec gestion d'erreur en async/await 
     
-      async function requestListener(_request, response) {
+      `<code> async function requestListener(_request, response) {
         try {
           const contents = await fs
             .readFile("index.html", "utf8")
@@ -43,7 +43,7 @@ Partie 1 - Serveur HTTP natif Node.js
           response.writeHead(500);
           return response.end(error);
         }
-      }
+      } </code>`
     
   Mode développement
 
@@ -73,7 +73,7 @@ Partie 2 - framework Express
 
     Question 2.1 donner les URL des documentations de chacun des modules intallés par la commande précédente.
 
-      "express": "^4.18.2" [express](https://expressjs.com)
+      "express": "^4.18.2" https://expressjs.com
       "http-errors": "^2.0.0" https://www.npmjs.com/package/http-errors
       "loglevel": "^1.8.1" https://www.npmjs.com/package/loglevel
       "morgan": "^1.10.0" https://www.npmjs.com/package/morgan
