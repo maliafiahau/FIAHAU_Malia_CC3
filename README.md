@@ -93,7 +93,7 @@
 
     Question 2.4 quand l'évènement listening est-il déclenché?
 
-      La variable server est créée lors de l'appel app.listen(port, host). L'évènement listening sera déclenché lorsque le serveur à réussi à se lier au port
+      La variable server est créée lors de l'appel app.listen(port, host). L'évènement listening sera déclenché lorsque le serveur aura réussi à se lier au port
       et à l'adresse host spécifiés.
 
   #### Ajout de middlewares
