@@ -54,7 +54,7 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.7 quelles sont les différences entre les scripts http-dev et http-prod ? 
 
-      Le script http-dev est exécuté avec nodemon. S'il y a changement dans le code, le serveur se relance automatiquement avec les nouvelles modifications         apportées dans le code.
+      Le script http-dev est exécuté avec nodemon. S'il y a changement dans le code, le serveur se relance automatiquement avec les nouvelles modifications      apportées dans le code.
       Le script http-prod est exécuté sans nodemon, donc il n'y aura pas de relance automatique du serveur.
 
   Gestion manuelle des routes
