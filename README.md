@@ -54,7 +54,8 @@ Partie 1 - Serveur HTTP natif Node.js
 
     Question 1.7 quelles sont les différences entre les scripts http-dev et http-prod ? 
 
-      Le script http-dev est exécuté avec nodemon. S'il y a changement dans le code, le serveur se relance automatiquement avec les nouvelles modifications      apportées dans le code.
+      Le script http-dev est exécuté avec nodemon. S'il y a changement dans le code, le serveur se relance automatiquement avec les nouvelles modifications      
+      apportées dans le code.
       Le script http-prod est exécuté sans nodemon, donc il n'y aura pas de relance automatique du serveur.
 
   Gestion manuelle des routes
@@ -100,9 +101,11 @@ Partie 2 - framework Express
     Question 2.5 indiquer quelle est l'option (activée par défaut) qui redirige "/" vers "/index.html"?
 
       L'option activée par défaut qui redirige "/" vers "/index.html" est 'fallthrough' qui prend comme valeur par défaut true. 
-      "Il est généralement true souhaité que plusieurs répertoires physiques puissent être mappés à la même adresse Web ou que des itinéraires remplissent des fichiers inexistants."
+      "Il est généralement true souhaité que plusieurs répertoires physiques puissent être mappés à la même adresse Web ou que des itinéraires remplissent des
+      fichiers inexistants."
 
-    Question 2.6 visiter la page d'accueil puis rafraichir (Ctrl+R) et ensuite forcer le rafraichissement (Ctrl+Shift+R). Quels sont les codes HTTP sur le fichier style.css? Justifier.
+    Question 2.6 visiter la page d'accueil puis rafraichir (Ctrl+R) et ensuite forcer le rafraichissement (Ctrl+Shift+R). Quels sont les codes HTTP sur le
+    fichier style.css? Justifier.
 
       En rafraichissant la page d'accueil le code HTTP sur le fichier style.css est 304 (NOT MODIFIED). Ensuite en forçant le rafraichissement, le code HTTP est 200 (OK).
       Cela reflète le comportement du cache d'un navigateur. Le code 304 signifie que les ressources ont été téléchargées depuis le cache, mais en forçant le rafraichissement, le navigateur ignore le cache.
