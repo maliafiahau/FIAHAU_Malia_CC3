@@ -23,7 +23,7 @@
 
       Aucune réponse n'est reçue par le client.
 
-    Question 1.4 quelle est l'erreur affichée dans la console ? Retrouver sur `[Lien] (https://nodejs.org/api)` le code d'erreur affiché.
+    Question 1.4 quelle est l'erreur affichée dans la console ? Retrouver sur `<a href= "https://nodejs.org/api">https://nodejs.org/api</a>` le code d'erreur affiché.
 
       L'erreur affichée est "Error : ENOENT: no such file or directory".
 
