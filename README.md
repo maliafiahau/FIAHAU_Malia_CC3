@@ -101,8 +101,8 @@
     Question 2.5 indiquer quelle est l'option (activée par défaut) qui redirige "/" vers "/index.html"?
 
       L'option activée par défaut qui redirige "/" vers "/index.html" est 'fallthrough' qui prend comme valeur par défaut true. 
-      `>Il est généralement true souhaité que plusieurs répertoires physiques puissent être mappés à la même adresse Web ou que des itinéraires remplissent des
-      fichiers inexistants.`
+      Il est généralement true souhaité que plusieurs répertoires physiques puissent être mappés à la même adresse Web ou que des itinéraires remplissent des
+      fichiers inexistants.
 
     Question 2.6 visiter la page d'accueil puis rafraichir (Ctrl+R) et ensuite forcer le rafraichissement (Ctrl+Shift+R). Quels sont les codes HTTP sur le
     fichier style.css? Justifier.
